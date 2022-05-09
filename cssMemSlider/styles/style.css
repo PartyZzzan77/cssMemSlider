@@ -1,0 +1,16 @@
+@import './vendors/normalize.css';
+@import './vendors/reset.css';
+.wrapper{
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.slider {
+}
+.slider__items {
+}
+.item {
+}
+.mem__text {
+}
+.slider__nav {
+}

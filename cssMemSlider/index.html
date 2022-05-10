@@ -9,6 +9,11 @@
   </head>
   <body>
     <div class="wrapper">
+      <input type="radio" name="nav" id="s1" checked />
+      <input type="radio" name="nav" id="s2" />
+      <input type="radio" name="nav" id="s3" />
+      <input type="radio" name="nav" id="s4" />
+
       <div class="slider">
         <div class="slider__items">
           <div class="item">
@@ -24,23 +29,20 @@
             <img src="http://via.placeholder.com/600x200" alt="mem_4" />
           </div>
         </div>
-        <p class="mem__text">Lorem ipsum dolor sit amet.</p>
-        <p class="mem__text">Lorem ipsum dolor sit amet.</p>
-        <p class="mem__text">Lorem ipsum dolor sit amet.</p>
-        <p class="mem__text">Lorem ipsum dolor sit amet.</p>
-        <div class="slider__nav">
-          <label for="s1">
-            <input type="radio" id="s1" />
-          </label>
-          <label for="s2">
-            <input type="radio" name="nav" id="s2" />
-          </label>
-          <label for="s3">
-            <input type="radio" name="nav" id="s3" />
-          </label>
-          <label for="s4">
-            <input type="radio" name="nav" id="s4" />
-          </label>
+        <div class="controls">
+          <div class="slider__nav">
+            <label for="s1"></label>
+            <label for="s2"></label>
+            <label for="s3"> </label>
+            <label for="s4"></label>
+          </div>
+
+          <div class="mem__text">
+            <span class="item__text1">Lorem ipsum dolor sit amet 1</span>
+            <span class="item__text2">Lorem ipsum dolor sit amet 2</span>
+            <span class="item__text3">Lorem ipsum dolor sit amet 3</span>
+            <span class="item__text4">Lorem ipsum dolor sit amet 4</span>
+          </div>
         </div>
       </div>
     </div>

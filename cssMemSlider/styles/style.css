@@ -77,6 +77,7 @@ body {
 .slider__toggler2,
 .slider__toggler3,
 .slider__toggler4 {
+  display: block;
   width: 3.4rem;
   height: 3.4rem;
   margin: 1rem;

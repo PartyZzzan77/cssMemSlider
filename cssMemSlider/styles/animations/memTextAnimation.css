@@ -5,44 +5,61 @@
   margin-left: -1000rem;
   visibility: hidden;
 }
+
+.mem__text {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+
+  width: 80%;
+  height: 6rem;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  color: #25dd9a;
+
+  -moz-text-align-last: left;
+  text-align-last: left;
+}
 .item__text1,
 .item__text2,
 .item__text3,
 .item__text4,
 #s2:checked ~ .slider > .controls .mem__text > .item__text1,
-#s3:checked ~ .slider > .controls .mem__text > .item__text2,
+#s2:checked ~ .slider > .controls .mem__text > .item__text4,
+#s2:checked ~ .slider > .controls .mem__text > .item__text3,
+#s3:checked ~ .slider > .controls .mem__text > .item__text1,
+#s3:checked ~ .slider > .controls .mem__text > .item__text3,
+#s3:checked ~ .slider > .controls .mem__text > .item__text4,
+#s4:checked ~ .slider > .controls .mem__text > .item__text1,
 #s4:checked ~ .slider > .controls .mem__text > .item__text2,
 #s4:checked ~ .slider > .controls .mem__text > .item__text3 {
+  width: 0%;
   opacity: 0;
+
+  -webkit-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
 }
 
-#s1:checked ~ .slider > .controls .mem__text > .item__text1 {
-  opacity: 1;
-  transition: all 0.8s ease-in;
-}
-
-#s2:checked ~ .slider > .controls .mem__text > .item__text2 {
-  opacity: 1;
-  margin-left: -55%;
-  transition: all 0.8s ease-in;
-}
-#s3:checked ~ .slider > .controls .mem__text > .item__text1 {
-  opacity: 0;
-  margin-left: -70%;
-}
-
-#s3:checked ~ .slider > .controls .mem__text > .item__text3 {
-  opacity: 1;
-  margin-left: -65%;
-  transition: all 0.8s ease-in;
-}
-#s4:checked ~ .slider > .controls .mem__text > .item__text1 {
-  opacity: 0;
-  margin-left: -38.5rem;
-}
-
+#s1:checked ~ .slider > .controls .mem__text > .item__text1,
+#s2:checked ~ .slider > .controls .mem__text > .item__text2,
+#s3:checked ~ .slider > .controls .mem__text > .item__text3,
 #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
+  width: 100%;
   opacity: 1;
-  margin-left: -159%;
-  transition: all 0.8s ease-in;
+  
+  -webkit-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
 }

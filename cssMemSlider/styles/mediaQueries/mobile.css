@@ -19,32 +19,8 @@
     width: 2rem;
     height: 2rem;
   }
-
-  .mem__text {
-    font-size: 1.2rem;
-  }
-
-  #s1:checked ~ .slider > .controls .mem__text > .item__text1 {
-    opacity: 1;
-    transition: all 0.8s ease-in;
-  }
-
-  #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
-    opacity: 1;
-    margin-left: 48%;
-    transition: all 0.8s ease-in;
-  }
-  #s4:checked ~ .slider > .controls .mem__text > .item__text1 {
-    opacity: 0;
-  }
-
-  #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
-    opacity: 1;
-    margin-left: 0%;
-    transition: all 0.8s ease-in;
-  }
-  #s4:checked ~ .slider > .controls .mem__text > .item__text1 {
-    opacity: 0;
-    margin-left: -181%;
+  .mem__text{
+    width: 100%;
+    font-size: 2rem;
   }
 }

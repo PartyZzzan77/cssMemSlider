@@ -268,7 +268,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
-/*============controls animation==========*/
+/*============text animation==========*/
 #s1,
 #s2,
 #s3,
@@ -281,12 +281,12 @@ body {
 .item__text3,
 .item__text4 {
   opacity: 0;
-  margin-left: -50%;
+  margin-left: -100%;
 }
 
 #s1:checked ~ .slider > .controls .mem__text > .item__text1 {
   opacity: 1;
-  margin-left: calc(-150% + 1%);
+  margin-left: -300%;
 
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -294,7 +294,7 @@ body {
 }
 #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
   opacity: 1;
-  margin-left: -106%;
+  margin-left: -156%;
 
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -302,7 +302,7 @@ body {
 }
 #s3:checked ~ .slider > .controls .mem__text > .item__text3 {
   opacity: 1;
-  margin-left: -87%;
+  margin-left: -37%;
 
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -310,7 +310,7 @@ body {
 }
 #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
   opacity: 1;
-  margin-left: -26%;
+  margin-left: 125%;
 
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -378,20 +378,20 @@ body {
   }
 
   #s1:checked ~ .slider > .controls .mem__text > .item__text1 {
-    margin-left: -157%;
+    margin-left: -304%;
   }
   #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
-    margin-left: -113%;
+    margin-left: -161%;
   }
   #s3:checked ~ .slider > .controls .mem__text > .item__text3 {
-    margin-left: -94%;
+    margin-left: -42%;
   }
   #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
-    margin-left: -33%;
+    margin-left: 119%;
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
   .wrapper {
     padding: 0 1rem;
   }
@@ -414,16 +414,16 @@ body {
   }
 
   #s1:checked ~ .slider > .controls .mem__text > .item__text1 {
-    margin-left: -70%;
+    margin-left: -220%;
   }
   #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
-    margin-left: -71%;
+    margin-left: -120%;
   }
   #s3:checked ~ .slider > .controls .mem__text > .item__text3 {
-    margin-left: -117%;
+    margin-left: -66%;
   }
 
   #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
-    margin-left: -87%;
+    margin-left: 64%;
   }
 }

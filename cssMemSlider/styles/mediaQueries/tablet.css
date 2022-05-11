@@ -40,21 +40,40 @@
     flex-direction: column;
     row-gap: 1rem;
   }
-
   .mem__text {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+  .item__text1,
+  .item__text2,
+  .item__text3,
+  .item__text4,
+  #s2:checked ~ .slider > .controls .mem__text > .item__text1,
+  #s3:checked ~ .slider > .controls .mem__text > .item__text2,
+  #s4:checked ~ .slider > .controls .mem__text > .item__text2,
+  #s4:checked ~ .slider > .controls .mem__text > .item__text3 {
+    opacity: 0;
   }
 
   #s1:checked ~ .slider > .controls .mem__text > .item__text1 {
-    margin-left: -304%;
+    opacity: 1;
+    margin-left: 0;
+    transition: all 0.8s ease-in;
   }
+  #s2:checked ~ .slider > .controls .mem__text > .item__text1 {
+    opacity: 0;
+    margin-left: -100%;
+    transition: all 0.8s ease-in;
+  }
+
   #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
-    margin-left: -161%;
+    opacity: 1;
+    margin-left: 50%;
+    transition: all 0.8s ease-in;
   }
-  #s3:checked ~ .slider > .controls .mem__text > .item__text3 {
-    margin-left: -42%;
-  }
+
   #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
-    margin-left: 119%;
+    opacity: 1;
+    margin-left: -261%;
+    transition: all 0.8s ease-in;
   }
 }

@@ -8,53 +8,41 @@
 .item__text1,
 .item__text2,
 .item__text3,
-.item__text4 {
+.item__text4,
+#s2:checked ~ .slider > .controls .mem__text > .item__text1,
+#s3:checked ~ .slider > .controls .mem__text > .item__text2,
+#s4:checked ~ .slider > .controls .mem__text > .item__text2,
+#s4:checked ~ .slider > .controls .mem__text > .item__text3 {
   opacity: 0;
-  margin-left: -100%;
 }
 
 #s1:checked ~ .slider > .controls .mem__text > .item__text1 {
   opacity: 1;
-  margin-left: -300%;
-
-  -webkit-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  transition: all 0.8s ease-in;
 }
+
 #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
   opacity: 1;
-  margin-left: -156%;
-
-  -webkit-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  margin-left: -55%;
+  transition: all 0.8s ease-in;
 }
+#s3:checked ~ .slider > .controls .mem__text > .item__text1 {
+  opacity: 0;
+  margin-left: -70%;
+}
+
 #s3:checked ~ .slider > .controls .mem__text > .item__text3 {
   opacity: 1;
-  margin-left: -37%;
-
-  -webkit-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  margin-left: -65%;
+  transition: all 0.8s ease-in;
 }
+#s4:checked ~ .slider > .controls .mem__text > .item__text1 {
+  opacity: 0;
+  margin-left: -38.5rem;
+}
+
 #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
   opacity: 1;
-  margin-left: 125%;
-
-  -webkit-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-#s2:checked ~ .slider > .controls .mem__text > .item__text1,
-#s3:checked ~ .slider > .controls .mem__text > .item__text1,
-#s3:checked ~ .slider > .controls .mem__text > .item__text2,
-#s4:checked ~ .slider > .controls .mem__text > .item__text1,
-#s4:checked ~ .slider > .controls .mem__text > .item__text2,
-#s4:checked ~ .slider > .controls .mem__text > .item__text3 {
-  opacity: 0;
-
-  -webkit-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  margin-left: -159%;
+  transition: all 0.8s ease-in;
 }

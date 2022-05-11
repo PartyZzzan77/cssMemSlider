@@ -1,0 +1,36 @@
+@media screen and (max-width: 375px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    height: 30vh;
+  }
+
+  .slider__toggler1,
+  .slider__toggler2,
+  .slider__toggler3,
+  .slider__toggler4 {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #s1:checked ~ .slider > .controls .mem__text > .item__text1 {
+    margin-left: -220%;
+  }
+  #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
+    margin-left: -120%;
+  }
+  #s3:checked ~ .slider > .controls .mem__text > .item__text3 {
+    margin-left: -66%;
+  }
+
+  #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
+    margin-left: 64%;
+  }
+}

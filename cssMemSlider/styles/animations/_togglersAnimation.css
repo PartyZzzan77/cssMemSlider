@@ -1,0 +1,22 @@
+#s1:checked ~ .slider .controls .slider__nav .slider__toggler1,
+#s2:checked ~ .slider .controls .slider__nav .slider__toggler2,
+#s3:checked ~ .slider .controls .slider__nav .slider__toggler3,
+#s4:checked ~ .slider .controls .slider__nav .slider__toggler4 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(192, 96%, 50%, 1)),
+    to(hsla(65, 92%, 54%, 1))
+  );
+  background: -o-linear-gradient(
+    left,
+    hsla(192, 96%, 50%, 1) 0%,
+    hsla(65, 92%, 54%, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    hsla(192, 96%, 50%, 1) 0%,
+    hsla(65, 92%, 54%, 1) 100%
+  );
+}

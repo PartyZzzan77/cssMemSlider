@@ -18,7 +18,7 @@ body {
 }
 .wrapper {
   width: 100vw;
-  
+
   padding: 0 4rem;
   height: 100vh;
 
@@ -57,7 +57,10 @@ body {
 
   border-radius: 50%;
   box-shadow: 0 0 1rem #e5f61b;
-  background: #9bd46a;
+  background: rgba(69, 38, 130, 0.2);
+  border: 1px solid #9bd46a;
+
+  transition: background 0.8s ease-in-out;
 }
 
 .slider__toggler1:hover,
@@ -65,12 +68,10 @@ body {
 .slider__toggler3:hover,
 .slider__toggler4:hover {
   cursor: pointer;
-  background: linear-gradient(
-    90deg,
-    hsla(192, 96%, 50%, 1) 0%,
-    hsla(65, 92%, 54%, 1) 100%
-  );
+  background: #9bd46a;
+  border: 1px solid #9bd46a;
   box-shadow: 1.2rem 1.2rem 2.5rem 5da92f;
+  transition: background 0.1s ease-in;
 }
 
 .slider__nav {
@@ -91,7 +92,6 @@ body {
 }
 .mem__text {
   order: -1;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
   color: #25dd9a;
@@ -125,7 +125,7 @@ body {
   height: 60vh;
   margin-left: -50%;
 
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   opacity: 0;
 }
 
@@ -193,17 +193,17 @@ body {
 
 #s4:checked ~ .slider > .controls .mem__text > .item__text4 {
   opacity: 1;
-  margin-left: -21%;
+  margin-left: -26%;
   transition: all 1s ease-in-out;
 }
 #s2:checked ~ .slider > .controls .mem__text > .item__text2 {
   opacity: 1;
-  margin-left: -87%;
+  margin-left: -106%;
   transition: all 1s ease-in-out;
 }
 #s3:checked ~ .slider > .controls .mem__text > .item__text3 {
   opacity: 1;
-  margin-left: -78%;
+  margin-left: -87%;
   transition: all 1s ease-in-out;
 }
 

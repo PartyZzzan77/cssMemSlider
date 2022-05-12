@@ -78,6 +78,9 @@
 .slider__nav label:hover {
   cursor: pointer;
 }
+.slider__nav label:hover > {
+  cursor: pointer;
+}
 
 .slider__toggler1,
 .slider__toggler2,
@@ -105,7 +108,11 @@
 .slider__toggler1:hover,
 .slider__toggler2:hover,
 .slider__toggler3:hover,
-.slider__toggler4:hover {
+.slider__toggler4:hover,
+.nav-label1:hover > .slider__toggler1,
+.nav-label2:hover > .slider__toggler2,
+.nav-label3:hover > .slider__toggler3,
+.nav-label4:hover > .slider__toggler4 {
   cursor: pointer;
   background: #9bd46a;
   border: 0.1rem solid #9bd46a;

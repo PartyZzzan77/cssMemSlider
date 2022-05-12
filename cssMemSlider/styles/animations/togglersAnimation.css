@@ -23,4 +23,12 @@
     hsla(192, 96%, 50%, 1) 0%,
     hsla(65, 92%, 54%, 1) 100%
   );
+  
+}
+
+#s1:active ~ .slider .controls .slider__nav .nav-label1 .slider__toggler1,
+#s2:active ~ .slider .controls .slider__nav .nav-label2 .slider__toggler2,
+#s3:active ~ .slider .controls .slider__nav .nav-label3 .slider__toggler3,
+#s4:active ~ .slider .controls .slider__nav .nav-label4 .slider__toggler4 {
+  box-shadow: 0 0 .5rem #e5f61b;
 }

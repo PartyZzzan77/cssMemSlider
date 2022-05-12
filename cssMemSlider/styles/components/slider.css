@@ -114,9 +114,6 @@
   background: #9bd46a;
   border: 0.1rem solid #9bd46a;
 
-  -webkit-box-shadow: 1.2rem 1.2rem 2.5rem 5da92f;
-  box-shadow: 1.2rem 1.2rem 2.5rem 5da92f;
-
   -webkit-transition: background 0.1s ease-in;
   -o-transition: background 0.1s ease-in;
   transition: background 0.1s ease-in;

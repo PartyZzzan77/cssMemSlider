@@ -78,9 +78,6 @@
 .slider__nav label:hover {
   cursor: pointer;
 }
-.slider__nav label:hover > {
-  cursor: pointer;
-}
 
 .slider__toggler1,
 .slider__toggler2,

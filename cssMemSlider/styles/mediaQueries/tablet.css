@@ -47,7 +47,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    row-gap: 1rem;
+    /* row-gap: 1rem; */
   }
   .mem__text{
     width: 100%;

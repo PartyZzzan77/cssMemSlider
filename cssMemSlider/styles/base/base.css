@@ -5,6 +5,7 @@ body {
 .wrapper {
   padding: 0 25rem;
   width: 100vw;
+  height: 120vh;
 
   background: hsla(270, 94%, 25%, 1);
 

@@ -46,7 +46,6 @@
   .mem__text {
     width: 100%;
     font-size: 2.5rem;
-    -ms-flex-item-align: start;
-    align-self: flex-start;
+    
   }
 }

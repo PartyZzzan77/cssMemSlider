@@ -23,12 +23,30 @@
     hsla(192, 96%, 50%, 1) 0%,
     hsla(65, 92%, 54%, 1) 100%
   );
-  
+}
+#s1:active ~ .slider .controls .slider__nav .nav-label2 .slider__toggler2,
+#s1:active ~ .slider .controls .slider__nav .nav-label3 .slider__toggler3,
+#s1:active ~ .slider .controls .slider__nav .nav-label4 .slider__toggler4,
+#s2:active ~ .slider .controls .slider__nav .nav-label1 .slider__toggler1,
+#s2:active ~ .slider .controls .slider__nav .nav-label3 .slider__toggler3,
+#s2:active ~ .slider .controls .slider__nav .nav-label4 .slider__toggler4,
+#s3:active ~ .slider .controls .slider__nav .nav-label1 .slider__toggler1,
+#s3:active ~ .slider .controls .slider__nav .nav-label2 .slider__toggler2,
+#s3:active ~ .slider .controls .slider__nav .nav-label4 .slider__toggler4,
+#s4:active ~ .slider .controls .slider__nav .nav-label1 .slider__toggler1,
+#s4:active ~ .slider .controls .slider__nav .nav-label2 .slider__toggler2,
+#s4:active ~ .slider .controls .slider__nav .nav-label3 .slider__toggler3{
+  background: rgba(69, 38, 130, 0.2);
+  border: 0.1rem solid #9bd46a;
 }
 
 #s1:active ~ .slider .controls .slider__nav .nav-label1 .slider__toggler1,
 #s2:active ~ .slider .controls .slider__nav .nav-label2 .slider__toggler2,
 #s3:active ~ .slider .controls .slider__nav .nav-label3 .slider__toggler3,
-#s4:active ~ .slider .controls .slider__nav .nav-label4 .slider__toggler4 {
+#s4:active ~ .slider .controls .slider__nav .nav-label4 .slider__toggler4,
+#s1:hover ~ .slider .controls .slider__nav .nav-label1 .slider__toggler1,
+#s2:hover ~ .slider .controls .slider__nav .nav-label2 .slider__toggler2,
+#s3:hover ~ .slider .controls .slider__nav .nav-label3 .slider__toggler3,
+#s4:hover ~ .slider .controls .slider__nav .nav-label4 .slider__toggler4 {
   box-shadow: 0 0 .5rem #e5f61b;
 }

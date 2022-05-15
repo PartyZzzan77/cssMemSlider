@@ -1,12 +1,10 @@
 body {
   max-width: 1.28rem;
-  height: auto;
 }
 
 .wrapper {
   padding: 0 25rem;
   width: 100vw;
-  height: auto;
 
   background: hsla(270, 94%, 25%, 1);
 

@@ -61,6 +61,9 @@
   display: -ms-flexbox;
   display: flex;
 }
+.slider__nav label {
+  -webkit-tap-highlight-color: transparent;
+}
 
 .slider__nav label:hover {
   cursor: pointer;

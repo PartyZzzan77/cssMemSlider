@@ -31,6 +31,7 @@
 
   -moz-text-align-last: left;
   text-align-last: left;
+  font-family: monospace , sans-serif;
 }
 .item__text1,
 .item__text2,

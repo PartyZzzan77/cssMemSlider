@@ -1,0 +1,17 @@
+/*============Vendors==========*/
+@import "./vendors/normalize.css";
+@import "./vendors/reset.css";
+/*============Fonts==========*/
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+/*============Base==========*/
+@import "./base/base.css";
+/*============components==========*/
+@import "./components/title.css";
+@import "./components/slider.css";
+/*============Animations==========*/
+@import "./animations/itemsAnimation.css";
+@import "./animations/memTextAnimation.css";
+@import "./animations/togglersAnimation.css";
+/*============Media Queries==========*/
+@import "./mediaQueries/tablet.css";
+@import "./mediaQueries/mobile.css";
